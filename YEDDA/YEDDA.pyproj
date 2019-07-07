@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>9275c18a-1363-4764-9b9d-6508fd80fd27</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>YEDDA.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>YEDDA</Name>
+    <RootNamespace>YEDDA</RootNamespace>
+    <InterpreterId>{16ef8abb-a6d3-41c5-895f-70fc2c18151e}</InterpreterId>
+    <InterpreterVersion>3.5</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Event_beta.py" />
+    <Compile Include="utils\compareAnn.py" />
+    <Compile Include="utils\metric4ann.py" />
+    <Compile Include="utils\recommend.py" />
+    <Compile Include="utils\__init__.py" />
+    <Compile Include="YEDDA.py" />
+    <Compile Include="YEDDA_Admin.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".idea\" />
+    <Folder Include="configs\" />
+    <Folder Include="utils\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".idea\misc.xml" />
+    <Content Include=".idea\modules.xml" />
+    <Content Include=".idea\workspace.xml" />
+    <Content Include=".idea\YEDDA-master.iml" />
+    <Content Include="configs\.gitkeep" />
+    <Content Include="configs\default-back.config" />
+    <Content Include="configs\default.config" />
+    <Content Include="utils\recommend.pyc" />
+    <Content Include="utils\__init__.pyc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="venv\">
+      <Id>{16ef8abb-a6d3-41c5-895f-70fc2c18151e}</Id>
+      <BaseInterpreter>{17f3df1c-e4ec-41be-ae2c-7b8a72529928}</BaseInterpreter>
+      <Version>3.5</Version>
+      <Description>venv (python3)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>
+      </PathEnvironmentVariable>
+      <Architecture>Amd64</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
+  </PropertyGroup>
+  <Import Condition="Exists($(PtvsTargetsFile))" Project="$(PtvsTargetsFile)" />
+  <Import Condition="!Exists($(PtvsTargetsFile))" Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>
