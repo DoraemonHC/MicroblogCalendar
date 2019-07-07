@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.705
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDimension.Weibo40", "NetDimension.Weibo\NetDimension.Weibo40.csproj", "{7B795714-40D6-4B2E-A277-CBE13C33E1ED}"
 EndProject
@@ -14,8 +14,6 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lda", "lda\lda.vcxproj", "{C8BB5D4D-3F44-4D86-BADB-C48E845ADAAF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "微博日历", "微博日历\微博日历.csproj", "{14102F8E-DF01-4D36-84DA-325AC39630F0}"
-EndProject
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "YEDDA", "YEDDA\YEDDA.pyproj", "{9275C18A-1363-4764-9B9D-6508FD80FD27}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "微博日历后台", "微博日历后台\微博日历后台.csproj", "{AA5076C9-1EA3-4441-8085-E03E03EF4ECD}"
 EndProject
@@ -93,12 +91,6 @@ Global
 		{14102F8E-DF01-4D36-84DA-325AC39630F0}.Release|x64.Build.0 = Release|Any CPU
 		{14102F8E-DF01-4D36-84DA-325AC39630F0}.Release|x86.ActiveCfg = Release|Any CPU
 		{14102F8E-DF01-4D36-84DA-325AC39630F0}.Release|x86.Build.0 = Release|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Release|x64.ActiveCfg = Release|Any CPU
-		{9275C18A-1363-4764-9B9D-6508FD80FD27}.Release|x86.ActiveCfg = Release|Any CPU
 		{AA5076C9-1EA3-4441-8085-E03E03EF4ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AA5076C9-1EA3-4441-8085-E03E03EF4ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5076C9-1EA3-4441-8085-E03E03EF4ECD}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -179,5 +171,8 @@ Global
 		{03ADB25D-ECB1-45E9-A2A4-97D7C39D274E} = {FDEAFC1E-3042-456C-BC8F-E6FB79411ABB}
 		{38EA70BF-C42B-4BE0-93D6-8BB4F58A5B89} = {FDEAFC1E-3042-456C-BC8F-E6FB79411ABB}
 		{C8BB5D4D-3F44-4D86-BADB-C48E845ADAAF} = {FDEAFC1E-3042-456C-BC8F-E6FB79411ABB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F75DF1CB-EE1E-46F1-A1F3-ACDC3FFAF183}
 	EndGlobalSection
 EndGlobal
